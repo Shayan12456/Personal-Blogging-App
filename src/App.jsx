@@ -21,9 +21,11 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="Home" element={<Home />} />
           <Route path="/blogs" element={<Blog />} />
           <Route path="/blogs/:id" element={<BlogPage />} /> {/* Individual blog */}
           <Route path="/categories" element={<CategoriesPage />} /> {/* Individual blog */}
+          <Route path="*" element={<div className="mt-[20vh] my-auto mx-auto text-[100px] text-center text-white py-20">404 Not Found</div>} />
         </Routes>
       </div>
       <Footer />
