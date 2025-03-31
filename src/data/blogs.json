@@ -1,0 +1,443 @@
+[
+    {
+        "id": "blog-1",
+        "title": "CSS Grid vs Flexbox: When to Use Each",
+        "category": "CSS",
+        "date": "2025-03-01",
+        "thumbnail": "data:image/png;base64,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",
+        "description": "Learn the differences between CSS Grid and Flexbox and when to use each for your layouts.",
+        "content": [
+          "CSS Grid and Flexbox are two powerful layout systems in modern CSS. They often solve similar problems, which can make it tricky for beginners to know when to use one over the other. In this blog, we’ll break down the core differences, use cases, and examples to help you make smart layout decisions.",
+          
+          "Let’s start with **Flexbox**. The Flexbox layout is **one-dimensional** — it lays out items in a row or a column. It’s great when you need to align items along a single axis, either horizontally or vertically.",
+          
+          "Here’s a basic example of Flexbox in action:\n\n```css\n.container {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n```",
+  
+          "Flexbox shines in use cases like:\n- Navigation bars\n- Button groups\n- Vertical/horizontal centering\n- Card components with dynamic height alignment",
+  
+          "On the other hand, **CSS Grid** is **two-dimensional**. It lets you define both rows and columns simultaneously, which makes it perfect for complex layouts like dashboards or image galleries.",
+          
+          "Example Grid layout:\n\n```css\n.container {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 20px;\n}\n```",
+  
+          "Grid is ideal for:\n- Page layouts (header, sidebar, main)\n- Image grids\n- Responsive design that changes structure across breakpoints\n- Aligning both rows and columns with precision",
+  
+          "So how do you decide between the two?\n✅ Use **Flexbox** when:\n- You’re aligning items in a single direction\n- Content is dynamic and order matters\n- You want simple alignment or distribution of space\n\n✅ Use **Grid** when:\n- You’re building full page or section layouts\n- Both row and column control is important\n- You want visual structure first, then fill in the content",
+  
+          "In real-world apps, you'll often use both together. For example, your page layout might use CSS Grid, but inside a card component, Flexbox helps align content. Don’t think of it as a competition — they’re complementary tools.",
+  
+          "Also, both support media queries and are responsive-friendly. Combine them with utility-first frameworks like TailwindCSS to make layout building even faster and cleaner.",
+  
+          "In conclusion, Flexbox is like a toolbox for one direction. Grid is your layout blueprint for the entire area. Knowing when to use each makes your code more efficient, more readable, and far easier to maintain. Master both — they’re essential for any modern frontend developer."
+        ],
+        "comments": [
+          {"John": "This was super helpful, thank you!"},
+          {"Kane": "Loved the tips on Tailwind dark mode ✨"}
+        ],
+        "likes": 120, 
+        "tags": ["CSS", "Grid", "Flexbox"],
+        "author": {
+          "name": "Shayan Danish",
+          "bio": "Loves creating beautiful layouts with CSS."
+        },
+        "readingTime": "4 min read",
+        "isFeatures": false
+    },
+    {
+        "id": "blog-2",
+        "title": "Understanding React Hooks: A Beginner's Guide",
+        "category": "Frontend",
+        "date": "2025-03-05",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJgCFgPqezGq642D3HRazDqO9_XWH7LjAoBQ&s",
+        "description": "Get to know React Hooks and how they can simplify your component logic.",
+        "content": [
+          "React Hooks are one of the most powerful and talked-about features introduced in React 16.8. They allow you to use state and other React features without writing a class component.",
+          
+          "Before Hooks, working with stateful logic often meant converting a component into a class, which made the code bulkier and sometimes harder to manage. Hooks change that by enabling functional components to do more with less code.",
+  
+          "The most commonly used hooks are `useState`, `useEffect`, and `useContext`. Each one serves a specific purpose and helps you manage your component’s behavior more effectively.",
+  
+          "Let’s start with `useState`. This Hook allows you to add state to a functional component:\n\n```jsx\nconst [count, setCount] = useState(0);\n```\nHere, `count` is the current state, and `setCount` is the function to update it.",
+  
+          "Now, `useEffect` is another powerful hook. It's like a combination of `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount` in class components. You can use it for side effects like fetching data or setting up subscriptions:\n\n```jsx\nuseEffect(() => {\n  console.log('Component mounted or updated');\n}, [dependencies]);\n```",
+  
+          "If the `dependencies` array is empty, the effect runs only once when the component mounts. If you include variables inside it, the effect will re-run whenever those variables change.",
+  
+          "Next is `useContext`. This hook lets you access the nearest Context value in your component tree. It’s very useful for things like theme switching or authentication states:\n\n```jsx\nconst theme = useContext(ThemeContext);\n```",
+  
+          "React also provides advanced hooks like `useReducer`, `useRef`, and `useMemo` — which you’ll explore as you gain more experience. Each of them helps solve specific patterns or performance issues in React apps.",
+  
+          "Hooks also promote better separation of concerns. You can extract logic into custom hooks — functions that start with `use` — to make your code modular and reusable:\n\n```jsx\nfunction useCounter() {\n  const [count, setCount] = useState(0);\n  const increment = () => setCount((c) => c + 1);\n  return { count, increment };\n}\n```",
+  
+          "React Hooks are not just a feature — they represent a paradigm shift in how developers write React apps. They encourage functional programming, reduce boilerplate, and make your components cleaner and easier to test.",
+  
+          "In conclusion, if you're just getting started with React or coming from a class-based background, learning hooks is essential. Start with the basics (`useState`, `useEffect`, `useContext`) and gradually explore the more advanced ones. With practice, you’ll wonder how you ever built React apps without them!"
+       ],
+       "comments": [
+          {"Smith": "What a write up!"},
+          {"Kane": "Awesome Shayan!"}
+        ],
+        "tags": ["React", "Hooks", "Frontend"],
+        "author": {
+          "name": "Shayan Danish",
+          "bio": "Frontend developer who loves building interactive UIs."
+        },
+        "readingTime": "5 min read",
+        "isFeatures": false
+    },
+    {
+        "id": "blog-3",
+        "title": "Design Thinking for Developers: What You Should Know",
+        "category": "Design",
+        "date": "2025-03-25",
+        "thumbnail": "https://miro.medium.com/v2/resize:fit:1400/0*mnSaqpzjdbqDcw0R.png",
+        "description": "You don’t need to be a designer to think like one. Here’s how devs can make smarter UI decisions.",
+        "content": [
+          "Design thinking isn’t just for designers anymore—it's a superpower for developers too. At its core, design thinking is a human-centered approach to problem-solving that emphasizes empathy, ideation, and rapid prototyping. In a world where users expect smooth, intuitive digital experiences, developers who think like designers build better software.",
+          
+          "So, what does design thinking actually involve? It typically follows five key steps: Empathize, Define, Ideate, Prototype, and Test. For developers, this doesn't mean trading your terminal for Figma, but it does mean thinking beyond just the code and considering how real users will experience what you build.",
+          
+          "Let’s break it down:",
+          
+          "1. **Empathize** — Talk to users. Understand their pain points, workflows, and habits. Even a quick user survey or watching someone use your app can reveal surprising insights.",
+          
+          "2. **Define** — Frame the core problem from the user’s perspective. For example, instead of 'Build a signup form', reframe as 'Make it effortless for new users to get started'.",
+          
+          "3. **Ideate** — Brainstorm solutions without immediately judging them. Developers often jump to the first solution that 'works', but this step is about exploring alternatives. Even sketching out ideas on paper helps.",
+          
+          "4. **Prototype** — Build a minimal, testable version. This could be a feature flag, a mock UI, or even a simple console log that mimics the flow. Keep it scrappy.",
+          
+          "5. **Test** — Let users try it. Observe how they interact. Watch where they hesitate. Ask open-ended questions like 'What did you expect to happen here?'",
+          
+          "Design thinking reminds developers that functionality isn’t enough—**usability is everything**. Your code might be elegant, but if users are confused, frustrated, or disengaged, the product fails.",
+          
+          "A few practical tips:",
+          
+          "- Add small touches that delight: animations, loading states, helpful error messages.",
+          "- Use tools like [Hotjar](https://www.hotjar.com/) or [UserTesting](https://www.usertesting.com/) to understand how real users behave.",
+          "- Pair with a designer early. Just 15 minutes of feedback can drastically improve a UI decision.",
+          
+          "Most importantly, design thinking makes you a better teammate. It forces you to listen, collaborate, and value iteration over perfection. You start asking better questions, solving the right problems, and ultimately—building things people actually love using.",
+          
+          "In a fast-paced dev environment, design thinking might feel like a luxury. But it’s not. It's a mindset that turns code into craft."
+          ],
+        "comments": [
+          {"Ben": "It is a must-have for absolute beginners!"}
+        ],
+        "tags": ["Design", "UX", "Frontend"],
+        "author": {
+          "name": "Shayan Danish",
+          "bio": "Loves building stuff that works *and* looks good."
+        },
+        "readingTime": "4 min read",
+        "isFeatures": false
+    },
+    {
+      "id": "blog-4",
+      "title": "Mastering Dark Mode in React with TailwindCSS",
+      "category": "Dev Tips",
+      "date": "2025-03-29",
+      "thumbnail": "data:image/png;base64,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",
+      "description": "Learn how to implement a beautiful dark mode experience using Tailwind and React.",
+      "content": [
+        "Dark mode is not just a trend anymore—it's an essential feature users expect in modern applications. It reduces eye strain, looks elegant, and can even improve battery life on OLED screens. As developers, building a great dark mode experience means more than just flipping colors—it requires attention to design, accessibility, and implementation. In this guide, we’ll walk through how to implement dark mode in a React project using TailwindCSS.",
+    
+        "First, let’s start by enabling dark mode in your Tailwind config. Tailwind supports dark mode out of the box, and you can configure it by adding `darkMode: 'class'` in `tailwind.config.js`. This means you’ll manually toggle a `dark` class on a parent element (usually the `<html>` or `<body>` tag) to activate dark mode styles.",
+        
+        "With that setup, you can now write conditional classes using the `dark:` prefix. For example, `<div className=\"bg-white dark:bg-gray-900\">` sets a light background by default and switches to dark gray when dark mode is active. Tailwind makes this seamless and readable, and you don’t have to manage custom CSS variables or themes manually.",
+        
+        "Next, you’ll need to create a toggle. A common approach is to use a button that switches between dark and light mode. In React, this typically involves using `useState` or even `localStorage` to remember the user's preference. Here’s a quick example:",
+        
+        "```jsx\nconst [darkMode, setDarkMode] = useState(false);\n\nuseEffect(() => {\n  document.documentElement.classList.toggle('dark', darkMode);\n}, [darkMode]);\n```",
+        
+        "This code toggles the `dark` class on the root `html` element whenever the state changes. You can extend this to check `localStorage` on load and remember the user’s theme preference.",
+        
+
+        "Want an even smoother experience? You can add transition classes like `transition-colors duration-500` to elements so that background and text color changes animate instead of switching instantly. This small touch adds a level of polish that users appreciate.",
+        
+        "Don’t forget about accessibility! Make sure your contrast ratios meet WCAG standards in both light and dark modes. Tailwind’s utility classes make it easy to fine-tune colors, but tools like `tota11y` or Chrome DevTools can help validate that your app remains usable for all users.",
+        
+        "Lastly, test your UI thoroughly in both themes. It’s easy to forget that some elements might not have a `dark:` equivalent, which can lead to inconsistencies. Go through all your components, test on real devices, and consider writing theme-specific tests if your app heavily depends on visual styling.",
+        
+        "In conclusion, dark mode is a powerful feature that improves UX and adds a modern touch to your app. With TailwindCSS and React, implementing it is easier than ever. Focus on consistency, transitions, and accessibility to create an experience that users will love—whether they’re coding at midnight or just prefer a darker aesthetic."
+        ],
+      "comments": [
+          {"Ram": "Great article!"},
+          {"Ishan": "I can totally relate to this. Thanks for sharing!"},
+          {"Kevin": "Front-end devs need to know this."}
+        ],
+      "tags": ["React", "TailwindCSS", "Dark Mode"],
+      "author": {
+      "name": "Shayan Danish",
+      "bio": "Full-stack dev who writes clean code and better blogs."
+      },
+      "readingTime": "5 min read",
+      "isFeatures": false
+    },
+    {
+        "id": "blog-5",
+        "title": "Micro-Interactions: The Secret Sauce of Exceptional UI",
+        "category": "UI/UX",
+        "date": "2025-03-31",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZFQF9LBk2n5bz5LYVzb0EJ3uP6C4SwOkKew&s",
+        "description": "Go beyond static interfaces. Discover how micro-interactions can drastically improve your UI and make your frontend stand out.",
+        "content": [
+          "When users say a UI feels 'smooth' or 'intuitive,' they’re often referring to **micro-interactions**—the tiny animations and responses that happen when you hover, click, tap, or drag.",
+          
+          "Think of the heart animation on Twitter, the bounce when you pull to refresh, or the subtle loading indicator when switching tabs. These micro-interactions create feedback, communicate state, and keep users engaged.",
+          
+          "### Why Micro-Interactions Matter\n1. **Feedback:** Let users know something’s happening (loading spinners, button pulses)\n2. **State change indicators:** Like toggling dark mode, switching a tab, or completing a form field\n3. **Guidance:** Help users navigate—like animating tooltips or showing progress subtly",
+          
+          "### When to Use Them\n- On buttons (hover, click feedback)\n- Form inputs (success/failure animations)\n- Navigation (smooth transitions)\n- Scroll (parallax or fade-in content)\n- Empty states (bounce or fade-in illustrations)",
+          
+          "### How to Implement\nYou can use tools like:\n- **Framer Motion** for React (`motion.div` with variants)\n- **Tailwind CSS** with `transition`, `duration`, and `ease-in-out`\n- **GSAP** for complex timeline-based animations",
+          
+          "Example (Framer Motion):\n```jsx\n<motion.button\n  whileHover={{ scale: 1.1 }}\n  whileTap={{ scale: 0.95 }}\n  className=\"bg-indigo-500 text-white px-4 py-2 rounded\"\n>\n  Submit\n</motion.button>\n```",
+      
+          "Bonus: Use **delay + stagger** to create a chained, polished experience when rendering lists, cards, or sections. It creates a storytelling vibe, guiding the user’s eyes naturally.",
+          
+          "### Don’t Overdo It\nAnimations should enhance—not distract. Prioritize performance: test on mobile, lazy-load heavy scripts, and always respect user preferences like `prefers-reduced-motion`.",
+          
+          "### TL;DR\nMicro-interactions add delight, communicate intent, and create a memorable user experience. In a UI-focused hackathon, they can be the *difference between a cool app and an unforgettable one.* Use them wisely and your frontend will feel alive."
+        ],
+        "comments": [
+          {"Phillips": "Good point out, every drop counts in an ocean!"},
+          {"Mitchell": "Real!"}
+        ],
+        "tags": ["Animations", "UX", "Frontend", "Framer Motion"],
+        "author": {
+          "name": "Shayan Danish",
+          "bio": "UI enthusiast obsessed with creating joyful user experiences."
+        },
+        "readingTime": "6 min read",
+        "isFeatures": false
+    },
+    {
+        "id": "blog-6",
+        "title": "The Power of Skeleton Screens in Modern UI",
+        "category": "Performance",
+        "date": "2025-03-31",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPe5AZvWagPuNzUXjQbTKel2Zn630mSpS7jg&s",
+        "description": "Tired of boring spinners? Learn how skeleton screens improve perceived performance and make your UI feel snappy and polished.",
+        "content": [
+          "Nothing kills the vibe like a slow-loading interface with a spinning loader. Enter: **Skeleton Screens**. These grey placeholders mimic the layout of your content while it loads, offering users a sense of progress and structure.",
+          
+          "### Why Skeleton Screens Work\n1. **Perceived Speed:** Users *feel* like the app is faster, even if the backend isn't.\n2. **Visual Continuity:** No jarring content shifts or 'empty void' moments.\n3. **Better UX:** Keeps users focused and reduces bounce, especially on mobile.",
+          
+          "### When to Use Them\n- Blog content\n- Product listings\n- Dashboard widgets\n- Social feeds\n- Anything with async data",
+          
+          "### How to Build One\nTailwindCSS makes it easy with utility classes:\n```jsx\n<div className=\"animate-pulse space-y-4\">\n  <div className=\"h-6 bg-gray-700 rounded w-3/4\" />\n  <div className=\"h-4 bg-gray-600 rounded w-full\" />\n  <div className=\"h-4 bg-gray-600 rounded w-5/6\" />\n</div>\n```",
+          
+          "For frameworks like React, pair this with a `loading` state:\n```jsx\n{loading ? <SkeletonCard /> : <ActualContent />}\n```",
+          
+          "### Best Practices\n- Match skeleton layout to real content shape\n- Use `animate-pulse` subtly (no aggressive flashes)\n- Don’t delay skeleton removal once content is ready\n- Combine with `React Suspense` for async boundaries (if using data fetching libraries like React Query or SWR)",
+          
+          "### Bonus: Add polish\nWant to make it even smoother?\n- Use `transition-opacity` so content fades in when ready\n- Add blur effects behind skeleton for glassmorphism\n- Match your dark/light theme\n\n```jsx\n<div className=\"transition-opacity duration-500 opacity-0 data-loaded:opacity-100\">\n  ...content\n</div>\n```",
+          
+          "### TL;DR\nSkeleton screens aren’t just trendy—they’re a game-changer for UX. In a world where milliseconds matter, they help bridge the gap between async data and user expectations. Next time you reach for a spinner, try a skeleton instead. Your users (and judges 👀) will love it."
+        ],
+        "tags": ["Skeleton Screens", "UX", "Loading States", "Performance"],
+        "comments": null,
+        "author": {
+          "name": "Shayan Danish",
+          "bio": "Frontend dev who prefers skeletons over spinners — always."
+        },
+        "readingTime": "5 min read",
+        "isFeatures": false
+    },
+    {
+        "id": "blog-8",
+        "title": "Mastering Microinteractions for Delightful UX",
+        "category": "UI/UX",
+        "date": "2025-03-30",
+        "thumbnail": "data:image/jpeg;base64,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",
+        "description": "Tiny interactions, huge impact. Learn how to craft smooth and subtle animations to level up your UI game.",
+        "content": [
+          "Microinteractions are the subtle details that enhance user experience without overwhelming users. From a like button animation to a loading spinner, these small elements improve UX dramatically.",
+          "Start with feedback: give users instant responses using animations (like a button ripple). Then add purpose—don’t animate for the sake of it. A good microinteraction should communicate something meaningful.",
+          "In React, you can implement them using Framer Motion or React Spring. Here's a simple `whileTap` effect with Framer Motion:",
+          "```jsx\n<motion.button whileTap={{ scale: 0.95 }}>Click Me</motion.button>\n```",
+          "Focus on four components: trigger, rules, feedback, and loops. Always keep transitions smooth (`ease-in-out`, `duration-300`) and accessible. Test on both desktop and mobile.",
+          "Microinteractions may be tiny, but they shape how users feel. In a world of pixel perfection, these moments are what set good UI apart from great ones."
+        ],
+        "comments": [
+          {"Pope": "Superb!"},
+          {"Buttler": "I love the examples you provided."},
+          {"Miller": "Microinteractions are a game changer!"}
+        ],
+        "tags": ["Microinteractions", "UX", "Framer Motion"],
+        "author": {
+          "name": "Shayan Danish",
+          "bio": "Frontend craftsman who believes every click should feel like magic."
+        },
+        "readingTime": "4 min read",
+        "isFeatures": false
+    },
+    {
+        "id": "blog-9",
+        "title": "How to Design Skeleton Screens That Don’t Stuck",
+        "category": "Performance",
+        "date": "2025-03-30",
+        "thumbnail": "data:image/png;base64,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",
+        "description": "Loading states matter more than you think. Let's design skeletons that look polished and perform well.",
+        "content": [
+          "Skeleton screens are animated placeholders that improve perceived performance. Instead of spinners (which show 'nothing'), skeletons preview layout and build anticipation.",
+          "Use gray tones, subtle shimmer effects, and avoid excessive flash. Here’s a quick React example using Tailwind:",
+          "```jsx\n<div className='animate-pulse bg-gray-700 h-6 w-2/3 rounded'></div>\n```",
+          "Design for consistency: match the skeleton’s structure to the actual content. Animate only what will appear shortly (not navigation bars).",
+          "Accessibility tip: add `aria-busy='true'` and avoid hardcoded heights on dynamic content.",
+          "Bonus: Animate entrance from skeleton to real content using `opacity` or `scale` transitions. That way, the shift feels elegant instead of abrupt.",
+          "Skeletons aren’t just placeholders—they’re part of the user journey. Make them count."
+        ],
+        "comments": [
+          {"Santner": "Great insights!"},
+          {"Johnson": "This is a game changer for loading states!"}
+        ],
+        "tags": ["UX", "Loading", "TailwindCSS"],
+        "author": {
+          "name": "Shayan Danish",
+          "bio": "Obsessed with performance-first design and clever loading tricks."
+        },
+        "readingTime": "5 min read",
+        "isFeatures": false
+    },
+    {
+        "id": "blog-10",
+        "title": "Using Viewport Units for Truly Responsive Layouts",
+        "category": "Design",
+        "date": "2025-03-30",
+        "thumbnail": "data:image/jpeg;base64,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",
+        "description": "Stop breaking layouts. Master `vh`, `vw`, and the new `svh`, `lvh`, and `dvh` units for modern responsive web design.",
+        "content": [
+          "Viewport units (`vh`, `vw`) are powerful for building responsive layouts without breakpoints—but they’ve historically been buggy on mobile browsers.",
+          "Enter `svh` (smallest viewport height), `lvh` (largest), and `dvh` (dynamic). These fix issues where 100vh included mobile browser chrome.",
+          "Want a hero section that always fits the screen? Use `h-[100svh]` in Tailwind (with plugin or custom config).",
+          "```css\n/* Tailwind config */\nheight: 100svh;\n```",
+          "Avoid hardcoding values. Let content flow using `min-height`, `clamp()`, and `aspect-ratio` for fluid sections.",
+          "Test your layouts by toggling device toolbars and rotating screen orientation. Responsive isn’t just about scaling—it's about adaptability.",
+          "When used right, viewport units make your UI feel native and immersive. Say goodbye to jumpy scrolls and hello to buttery-smooth layouts."
+        ],
+        "comments": [
+          {
+            "name": "John Doe",
+            "comment": "Great article! I never knew about svh and lvh. Thanks for sharing!"
+          },
+          {
+            "name": "Jane Smith",
+            "comment": "This is a game changer for responsive design. Can't wait to implement it!"
+          }
+        ],
+        "tags": ["Responsive", "CSS", "Modern Web"],
+        "author": {
+          "name": "Shayan Danish",
+          "bio": "Frontend enthusiast chasing the dream of one-layout-fits-all."
+        },
+        "readingTime": "6 min read",
+        "isFeatures": false
+    },
+    {
+      "id": "featured-1",
+      "title": "The Future of AI in Creative Writing",
+      "category": "AI",
+      "date": "Mar 15, 2024",
+      "thumbnail": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
+      "description": "Exploring how artificial intelligence is reshaping the landscape of creative writing and storytelling.",
+      "content": [
+        "Artificial Intelligence is no longer just a tool for automation — it's becoming a co-writer, editor, and creative partner. With tools like ChatGPT and Claude, writers are now collaborating with AI to brainstorm plots, overcome writer's block, and even write entire drafts. But does this mean AI will replace human creativity? Not quite.",
+        "AI lacks emotional depth, cultural context, and personal experiences — all key ingredients in great storytelling. Instead, it shines when used to speed up workflows and suggest fresh ideas. Imagine feeding an AI your plot outline and getting 10 alternative endings in seconds.",
+        "Many authors are already embracing AI to enhance productivity. It's not about man vs. machine — it's about man *with* machine. The real magic happens when human emotion meets AI efficiency.",
+        "In the future, we might see AI co-authoring bestsellers or adapting scripts on the fly based on audience feedback. One thing's certain: the writers who adapt will be the ones shaping this new creative frontier."
+      ],
+      "comments": [
+          {"John": "This was super helpful, thank you!"},
+          {"Kane": "Loved the tips on Tailwind dark mode ✨"}
+      ],
+      "likes": 120, 
+      "tags": ["CSS", "Grid", "Flexbox"],
+      "author": {
+        "name": "Shayan Danish",
+        "bio": "Loves creating beautiful layouts with CSS."
+      },
+      "readingTime": "4 min read",
+      "isFeatures": true
+    },
+    {
+      "id": "featured-2",
+      "title": "Minimalist Design Principles",
+      "category": "Design",
+      "date": "Mar 14, 2024",
+      "thumbnail": "https://images.unsplash.com/photo-1707343843437-caacff5cfa74?auto=format&fit=crop&q=80&w=800",
+      "description": "Understanding the core principles of minimalist design and how to apply them effectively.",
+      "content": [
+        "Minimalism in design isn’t about removing elements — it’s about removing the *unnecessary*. At its core, it’s a focus on clarity, purpose, and elegance. When done right, minimalist design makes users feel less overwhelmed and more engaged.",
+        "Key principles include using whitespace effectively, choosing clean typography, and maintaining a consistent color palette. Every element on the screen must serve a purpose.",
+        "Apple, Google, and Airbnb are just a few giants who have leaned into minimalism, proving that simplicity can be both beautiful and functional.",
+        "In a world full of noise, minimalist design cuts through with intention. It’s not about doing less — it’s about doing *better* with less."
+      ],
+      "comments": [
+          {"John": "This was super helpful, thank you!"},
+          {"Kane": "Loved the tips on Tailwind dark mode ✨"}
+      ],
+      "likes": 120, 
+      "tags": ["CSS", "Grid", "Flexbox"],
+      "author": {
+        "name": "Shayan Danish",
+        "bio": "Loves creating beautiful layouts with CSS."
+      },
+      "readingTime": "4 min read",
+      "isFeatures": true
+    },
+    {
+      "id": "featured-3",
+      "title": "Dark Mode Done Right in Web Design",
+      "category": "UI/UX",
+      "date": "Mar 16, 2024",
+      "thumbnail": "https://images.unsplash.com/photo-1572062505547-912c49028cc5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZGFyayUyMG1vZGV8ZW58MHx8MHx8fDA%3D",
+      "description": "Learn the best practices for designing elegant and accessible dark mode interfaces in modern apps.",
+      "content": [
+        "Dark mode has exploded in popularity — not just because it looks sleek, but because it’s easier on the eyes, especially at night. But designing for dark mode isn't just about inverting colors. It requires finesse.",
+        "Good dark mode design focuses on contrast, readability, and avoiding pure black. True black can cause eye strain and make UI elements blend together. Instead, designers use dark grays and subtle shadows to separate content.",
+        "Icons, accent colors, and text must be re-evaluated. A bright blue that looks great on white might look harsh on black.",
+        "Dark mode also allows for storytelling — it can feel cinematic, immersive, and modern. But to get it right, you need to test across devices and ensure accessibility is never sacrificed.",
+        "When dark mode is thoughtfully executed, users feel like your product adapts to them — not the other way around."
+      ],
+      "comments": [
+          {"John": "This was super helpful, thank you!"},
+          {"Kane": "Loved the tips on Tailwind dark mode ✨"}
+        ],
+      "likes": 120, 
+      "tags": ["CSS", "Grid", "Flexbox"],
+      "author": {
+        "name": "Shayan Danish",
+        "bio": "Loves creating beautiful layouts with CSS."
+      },
+      "readingTime": "4 min read",
+      "isFeatures": true
+    },
+    {
+      "id": "featured-4",
+      "title": "Mastering React Hooks in 2024",
+      "category": "Frontend",
+      "date": "Mar 17, 2024",
+      "thumbnail": "https://images.unsplash.com/photo-1605379399642-870262d3d051?auto=format&fit=crop&q=80&w=800",
+      "description": "A practical guide to mastering React Hooks with real-world examples and performance tips.",
+      "content": [
+        "React Hooks revolutionized how we write React components by allowing function components to manage state, side effects, and more. But truly mastering Hooks takes more than just `useState` and `useEffect`.",
+        "For performance, learn to use `useMemo` and `useCallback` correctly — especially in components with heavy re-renders or expensive calculations.",
+        "Understand the rules of Hooks: never call them conditionally or inside loops. This ensures consistent order and avoids bugs.",
+        "The `useReducer` hook is perfect for managing complex state logic, while `useRef` is great for DOM references and persisting values without triggering renders.",
+        "Most importantly, create custom hooks to encapsulate repeated logic like API fetching, auth checks, or form handling. That’s the key to reusable, scalable React architecture."
+      ],
+      "comments": [
+        {"John": "This was super helpful, thank you!"},
+        {"Kane": "Loved the tips on Tailwind dark mode ✨"}
+      ],
+      "likes": 120, 
+      "tags": ["CSS", "Grid", "Flexbox"],
+      "author": {
+        "name": "Shayan Danish",
+        "bio": "Loves creating beautiful layouts with CSS."
+      },
+      "readingTime": "4 min read",
+      "isFeatures": true
+    }    
+  ]
