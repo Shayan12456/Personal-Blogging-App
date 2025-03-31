@@ -7,7 +7,7 @@ export default function Footer() {
                 
                 {/* Left: Logo & Description */}
                 <div>
-                <h2 className="text-xl font-bold text-white mb-4">📝 DevLog</h2>
+                <h2 className="text-xl font-bold text-white mb-4">📝 Let's Connect!</h2>
                 <p className="text-sm leading-relaxed">
                     Insights, guides, and stories for developers. From frontend tricks to backend logic — everything in one place.
                 </p>
